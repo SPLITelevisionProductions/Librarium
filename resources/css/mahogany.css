@@ -1,0 +1,27 @@
+/*	Mahogany Theme
+ *
+ *	A replacement for those wanting a more realistic feel. This retyles the bookcase to be made out of Mahogany
+ */
+
+@import url(librarium.css);
+
+html, .blurUnderlayFix {
+	background:
+    url(../images/mahogany/ShelfLeft.svg) left 55px repeat-y,
+    url(../images/mahogany/ShelfRight.svg) right 55px repeat-y,
+		url(../images/mahogany/ShelfTop.svg) left 55px repeat,
+		url(../images/mahogany/Background.jpg) center top repeat;
+  background-size: auto, auto, auto, 160px auto;
+}
+
+#BookDetails .bookImage {
+	background:
+		url(../images/mahogany/ShelfTop.svg) left 230px repeat-x,
+		url(../images/mahogany/Background.jpg) center top repeat;
+  background-size: auto, 160px auto;
+}
+
+html.webAppMode,
+html.webAppMode .blurUnderlayFix{
+	background-position: left 65px, right 65px, left 65px, center top;
+}

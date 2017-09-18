@@ -1,0 +1,30 @@
+/*	Just Books Theme
+ *
+ *	A replacement for those wanting a more minimalistic feel. This retyles the bookcase to be well...
+ *  ... not
+ */
+
+@import url(librarium.css);
+
+html, .blurUnderlayFix {
+	background:
+    url(../images/justbooks/ShelfTop.svg) left 285px repeat,
+		white;
+  background-size: auto;
+}
+
+#BookDetails .bookImage {
+	background:
+		url(../images/mahogany/ShelfTop.svg) left 230px repeat-x,
+		white;
+  background-size: auto;
+}
+
+html.webAppMode,
+html.webAppMode .blurUnderlayFix{
+	background-position: left 65px, center top;
+}
+
+.bookCover {
+  box-shadow: none;
+}

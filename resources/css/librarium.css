@@ -1,0 +1,774 @@
+/*	Librarium
+ *
+ *	The base styles for Librarium
+ */
+
+@import url(../fonts/Courier-Prime.css);
+
+html, body {
+	padding: 0;
+	margin: 0;
+	font-family: 'CourierPrime';
+	/*height: 100%;*/
+}
+
+header {
+	width: 100%;
+	height: 55px;
+	background-color: rgb(169,16,52);
+	color: white;
+}
+
+#MainHeader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 990;
+}
+
+.popUp header {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.headerTitle {
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+	text-align: center;
+	font-weight: bold;
+	line-height: 55px;
+	font-size: 1.2em;
+}
+
+.popUp .headerTitle {
+	position: absolute;
+}
+
+.popUp {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 100%;
+	left: 0;
+	/*background: white;*/
+	background: url(../images/common/paper.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	padding-top: 55px;
+	-webkit-transition: top 0.6s ease-in-out;
+  -moz-transition: top 0.6s ease-in-out;
+  -o-transition: top 0.6s ease-in-out;
+  transition: top 0.6s ease-in-out;
+	z-index: 995;
+}
+
+#Sidebar {
+	position: fixed;
+	height: 100%;
+	width: 280px;
+	top: 0;
+	left: 0;
+	background: url(../images/common/paper.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	display: none;
+}
+
+.webAppMode .popUp {
+	padding-top: 65px;
+}
+
+.popUp.visible {
+	top: 0%;
+}
+
+header button {
+	appearance: none;
+	-webkit-appearance: none;
+	position: fixed;
+	top: 0;
+	height: 55px;
+	width: auto;
+	background: none;
+	border: none;
+	font-size: 1.2em;
+	font-family: 'CourierPrime';
+	padding: 0px 10px 0px 10px;
+	color: white;
+	margin: 0;
+	transition: background-color .1s ease-in-out;
+	background-position: center !important;
+	background-size: auto 45px !important;
+	background-repeat: no-repeat !important;
+}
+
+header button:hover {
+	background-color: rgba(255,255,255,0.1);
+}
+
+header button:focus {
+	outline: none;
+}
+
+header button:active {
+	background-color: rgba(255,255,255,0.2);
+}
+
+.popUp header button {
+	position: absolute;
+}
+
+#BkDetailsCancel,
+#BkDetailsEdit {
+	left: 0;
+}
+
+#BkDetailsCancel {
+	display: none;
+}
+
+#BookDetails.editable #BkDetailsCancel {
+	display: initial;
+}
+
+#BookDetails.editable #BkDetailsEdit {
+	display: none;
+}
+
+#BkDetailsClose {
+	right: 0;
+	width: 55px;
+	background-image: url(../images/toolbar/TBClose.svg);
+}
+
+#BkCoverCancel {
+	right: 0;
+}
+
+#BkAdd {
+	right: 0;
+	width: 55px;
+	background-image: url(../images/toolbar/TBAdd.svg);
+	background-size: auto 40px !important;
+}
+
+.webAppMode header {
+	height: 65px;
+}
+
+.webAppMode header button {
+	height: 45px;
+	top: 20px;
+}
+
+.webAppMode header .headerTitle {
+	top: 20px;
+	height: 45px;
+	line-height: 45px;
+}
+
+.blurOverlay, #BlurOverlay {
+	background-color: rgba(0, 0, 0, 0.3);
+	/*backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);*/
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+.vertAlignWrap {
+	/*position: relative;*/
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	color: white;
+	text-align: center;
+	/*text-shadow: 0px 0px 10px rgba(0,0,0,0.5);*/
+}
+
+.userMgmt .vertAlignWrap {
+	position: initial;
+	top: initial;
+	left: initial;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	width: auto;
+	padding-top: 115px;
+}
+
+/*.vertAlignCont {
+	box-sizing: border-box;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	transform: translateY(-50%);
+}*/
+
+.libLogo {
+	background-image: url(../images/LibrariumLogo_dark.svg);
+}
+
+.sysPage .libLogo {
+	width: 180px;
+	height: 180px;
+	display: inline-block;
+	background-position: center;
+	background-size: contain;
+}
+
+.vertAlignCont {
+	width: 280px;
+}
+
+.sysPage input {
+	width: 100%;
+	height: 45px;
+	font-family: 'CourierPrime';
+	line-height: 47px;
+	font-size: 1em;
+	padding: 0;
+	margin: 0;
+	border: none;
+	background: transparent;
+	border-bottom: 2px solid white;
+	color: white;
+	padding: 0px 10px 0px 10px;
+	box-sizing: border-box;
+	border-radius: 0px;
+}
+
+.sysPage input[type="submit"],
+.sysPage input[type="button"] {
+	border: 2px solid white;
+}
+
+.sysPage input[type="submit"]:first-child,
+.sysPage input[type="button"]:first-child {
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: none;
+}
+
+.sysPage input[type="submit"]:last-child,
+.sysPage input[type="button"]:last-child {
+	border-radius: 0px 0px 5px 5px;
+	border-top: none;
+}
+
+.sysPage input[type="submit"]:only-child,
+.sysPage input[type="button"]:only-child {
+	border-radius: 5px;
+	border: 2px solid white;
+}
+
+.sysPage input[type="checkbox"] {
+	height: 21px;
+	width: 21px;
+	padding: 0;
+	-webkit-appearance: none;
+	appearance: none;
+	border: 2px solid white;
+	border-radius: 5px;
+	margin:0;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+  *overflow: hidden;
+}
+
+.sysPage input[type="checkbox"]:active,
+.sysPage input[type="checkbox"]:focus {
+	background: transparent;
+}
+
+.sysPage input[type="checkbox"]:checked{
+	background-image: url(../images/common/tick.svg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.loginCheckbox {
+	margin-top: 25px;
+}
+
+.loginCheckbox label {
+	display: inline-block;
+  padding-left: 25px;
+  text-indent: -15px;
+}
+
+.sysPage input::-webkit-input-placeholder {
+	color: white;
+	opacity: 0.7;
+}
+
+.sysPage input:-ms-input-placeholder {
+	color: white;
+	opacity: 0.7;
+}
+
+.sysPage input::-moz-placeholder {
+	color: white;
+	opacity: 0.7;
+}
+
+.sysPage input:-moz-placeholder {
+	color: white;
+	opacity: 0.7;
+}
+
+.sysPage input:focus,
+.sysPage input[type="submit"]:active,
+.sysPage input[type="button"]:active {
+	outline: none;
+	background: rgba(255,255,255,0.1);
+}
+
+.sysPage input:-webkit-autofill:hover,
+.sysPage input:-webkit-autofill:focus,
+.sysPage input:-webkit-autofill {
+	background-color: transparent !important;
+	background-image: none;
+	color: rgb(250, 255, 189) !important;
+}
+
+.sysPage .halfInput input {
+	width: 50%;
+	float: left;
+}
+
+#FormButtons {
+	margin-top: 25px;
+}
+
+.blurUnderlayFix {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	filter: blur(10px);
+}
+
+#ShelvesCont {
+	margin-top: 55px;
+	padding: 0;
+	width: 100%;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+#Shelves {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-around;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	padding: 40px;
+	padding-top: 50px;
+	box-sizing: border-box;
+}
+
+.webAppMode #Shelves {
+	padding-top: 60px;
+}
+
+.bookItem {
+	width: 120px;
+	height: 120px;
+	margin: auto;
+	margin-bottom: 50px;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+}
+
+.bookCover {
+	width: 65%;
+	height: 100%;
+	padding: 5px;
+	color: white;
+	font-size: 11px;
+	background: linear-gradient(to bottom, #3f3f3f 0%,#000000 100%);
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 2px;
+	border: 2px solid rgb(0,0,0);
+	box-sizing: border-box;
+	cursor: pointer;
+	box-shadow: 0px 15px 20px rgba(0,0,0,0.5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	word-wrap: break-word;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.bookCover.seriesStart {
+	background: linear-gradient(to bottom, #641a1a 0%,#000000 100%);
+	cursor: default;
+}
+
+.bookCover.owner01 { border-color: #a2003c; }
+.bookCover.owner02 { border-color: #ff9f01; }
+.bookCover.owner03 { border-color: #ffe102; }
+.bookCover.owner04 { border-color: #427008; }
+.bookCover.owner05 { border-color: #624de0; }
+.bookCover.owner06 { border-color: #0f00c2; }
+.bookCover.owner07 { border-color: #a847eb; }
+.bookCover.owner08 { border-color: #; }
+.bookCover.owner09 { border-color: #; }
+.bookCover.owner10 { border-color: #; }
+
+.bookCover.owner01 .loanBanner { background-color: #a2003c; }
+.bookCover.owner02 .loanBanner { background-color: #ff9f01; }
+.bookCover.owner03 .loanBanner { background-color: #ffe102; color: black; }
+.bookCover.owner04 .loanBanner { background-color: #427008; }
+.bookCover.owner05 .loanBanner { background-color: #624de0; }
+.bookCover.owner06 .loanBanner { background-color: #0f00c2; }
+.bookCover.owner07 .loanBanner { background-color: #a847eb; }
+.bookCover.owner08 .loanBanner { background-color: #; }
+.bookCover.owner09 .loanBanner { background-color: #; }
+.bookCover.owner10 .loanBanner { background-color: #; }
+
+.bookNoCnr {
+	background-color: rgba(169,16,52,0.7);
+	position: absolute;
+	right: 0;
+	/*border-radius: 0px 0px 0px 100%;
+	width: 25px;
+	height: 20px;
+	line-height: 15px;
+	box-sizing: border-box;
+	padding-left: 3px;
+	top: 0;*/
+	bottom: 0;
+	width: 25px;
+	height: 16px;
+	line-height: 18px;
+	font-size: 11px;
+	z-index: 2;
+}
+
+.loanBanner {
+	width: 100%;
+	height: 16px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: black;
+	line-height: 18px;
+	font-size: 11px;
+	text-align: left;
+	padding: 0px 5px 0px 5px;
+	z-index: 1;
+}
+
+#BookDetails input {
+	height: 100%;
+	border: none;
+	border-radius: 0px;
+	pointer-events: none;
+	font-family: "CourierPrime";
+	width: calc(100% - 100px);
+	padding: 0;
+	padding-right: 10px;
+	word-wrap: break-word;
+	text-align: right;
+	box-sizing: border-box;
+	background: transparent;
+}
+
+#BookDetails input:focus {
+	outline: none;
+	background-color: rgba(255,255,255,0.2);
+}
+
+#BookDetails .bookImage {
+	width: 100%;
+	height: 250px;
+	position: relative;
+}
+
+#BookDetails .bookItem {
+	width: 200px;
+	height: 200px;
+	top: 30px;
+	left: calc(50% - 100px);
+	position: absolute;
+}
+
+#BookDetails ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	padding-top: 10px;
+}
+
+#BookDetails li {
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	padding: 0px 20px 0px 20px;
+	box-sizing: border-box;
+}
+
+#BookDetails li input {
+	font-size: 0.9em;
+}
+
+#BKDTitleWr #BKDTitle {
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+	font-size: 1em !important;
+	padding-right: 0;
+}
+
+#BookDetails #BKDTitleWr {
+	font-weight: bold;
+	font-size: 1.2em;
+	text-align: center;
+	height: auto;
+	min-height: 45px;
+}
+
+#BookDetails #BKDSerNo,
+#BookDetails #BKDAuthorWr {
+	text-align: center;
+	min-height: 32px;
+	height: auto;
+	line-height: 32px;
+	font-size: 1em;
+}
+
+#BookDetails #BKDAuthorWr {
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#BKDAuthorWr #BKDAuthor {
+	text-align: center;
+	width: 100%;
+	-webkit-appearance: none;
+	appearance: none;
+	font-weight: bold;
+	height: 32px;
+	min-height: 32px;
+	font-size: 1em;
+	padding-right: 0;
+}
+
+#BKDSerNo input {
+	width: auto;
+	-webkit-appearance: none;
+	appearance: none;
+	font-weight: bold;
+	height: 32px;
+	min-height: 32px;
+	font-size: 1em;
+}
+
+#BKDSerNo input#BKDBookNo {
+	width: 35px;
+	text-align: center;
+	font-weight: normal;
+	padding-right: 0;
+}
+
+#BookDetails input[type=number]::-webkit-inner-spin-button,
+#BookDetails input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#BKDSerNo input#BKDSeries {
+	width: calc(100% - 45px);
+	text-align: left;
+	padding-right: 0;
+	padding-left: 10px;
+}
+
+#BookNoCont {
+	width: 45px;
+	height: 100%;
+	display: inline-block;
+}
+
+#BookNoCont::before {
+	content: '#';
+}
+
+#BookDetails label {
+	width: 100px;
+	height: 100%;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 0.9em;
+}
+
+#BookDetails form,
+#BKDCropImageWrap {
+	position: absolute;
+	height: calc(100% - 110px);
+	width: 100%;
+	top: 55px;
+	left: 0;
+	box-sizing: border-box;
+	overflow-y: scroll;
+}
+
+#BKDCropImageWrap {
+	overflow: hidden;
+}
+
+.webAppMode #BookDetails form,
+.webAppMode #BKDCropImageWrap {
+	height: calc(100% - 130px);
+	top: 65px;
+}
+
+#BookDetails input[type="submit"],
+#BookDetails input[type="button"] {
+	-webkit-appearance: none;
+	appearance: none;
+	box-sizing: border-box;
+	width: calc(100% - 20px);
+	height: 45px;
+	/*border: 2px solid rgb(169,16,52);*/
+	border: 2px solid;
+	background: white;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#BookDetails input[type="submit"] {
+	border-color: grey;
+	border-bottom: none !important;
+	color: grey;
+	border-radius: 5px 5px 0px 0px;
+	margin-bottom: 0;
+}
+
+#BookDetails input[type="button"] {
+	border-color: rgb(169,16,52) !important;
+	color: rgb(169,16,52);
+	border-radius: 0px 0px 5px 5px;
+	pointer-events: initial;
+}
+
+#BookDetails input[type="button"]:nth-of-type(2) {
+	margin-bottom: 0;
+	border-radius: 0;
+	border-bottom: none !important;
+}
+
+#BookDetails.editable input[type="submit"] {
+	border-color: rgb(169,16,52) !important;
+	color: rgb(169,16,52);
+}
+
+input[type=range] {
+  display: none;
+}
+
+#BookDetails.editable input {
+	pointer-events: initial;
+	border-bottom: 2px solid black;
+}
+
+#BKDCoverUp {
+	display: none;
+}
+
+.popUp.editable #BKDCoverUp {
+	display: block;
+	width: 100%;
+	height: 100%;
+	-webkit-appearance: none;
+	appearance: none;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../images/common/uploadcover.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	border: none !important;
+	border-radius: 100%;
+}
+
+#BKDCoverUp::-webkit-file-upload-button {
+	display: none !important;
+}
+
+.popUp.editable .bkdVOnly {
+	display: none;
+}
+
+.bkdEOnly {
+	display: none;
+}
+
+.popUp.editable .bkdEOnly {
+	display: initial;
+}
+
+.errorMsg, .succMsg {
+	border-radius: 5px;
+	padding: 10px;
+	box-sizing: border-box;
+	font-size: 0.9em;
+	margin-bottom: 10px;
+}
+
+.errorMsg {
+	background-color: rgb(255, 222, 224);
+	color: red;
+}
+
+.succMsg {
+	background-color: lightgreen;
+	color: darkgreen;
+}
+
+.splitFooter {
+	background-image: url(../images/common/SPLITelevisionFooter.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 150px;
+	width: 100%;
+	margin-top: 55px;
+	margin-bottom: 55px;
+}
+
+#BKDCropImageWrap img {
+	max-width: 100%;
+}

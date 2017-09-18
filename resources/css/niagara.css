@@ -1,0 +1,29 @@
+/*	Niagara “Hope’s Colour” Theme
+ *
+ *	The default greeny-blue shelf theme
+ */
+
+@import url(librarium.css);
+
+html, .blurUnderlayFix {
+	background:
+		url(../images/niagara/ShelfTop.svg) 0px 55px repeat,
+		url(../images/niagara/ShelfLeft.svg) left top repeat-y,
+		url(../images/niagara/ShelfRight.svg) right top repeat-y,
+		rgb(33, 137, 112);
+}
+
+#BookDetails .bookImage {
+	background:
+		url(../images/niagara/ShelfTop.svg) 0px 230px repeat-x,
+		rgb(33, 137, 112);
+}
+
+.sysPage {
+	background: rgb(33, 137, 112);
+}
+
+html.webAppMode,
+html.webAppMode .blurUnderlayFix{
+	background-position: 0px 65px, left top, right top;
+}
