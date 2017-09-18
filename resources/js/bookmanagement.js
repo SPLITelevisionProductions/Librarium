@@ -185,18 +185,12 @@ function bkdHide() {
 
 function bkdCrop(id) {
   var image = '/images/books/' + id + '_original.jpg';
-  var img = '<img id="BKDCropImage' + id + '" onload="runJcrop(' + id + ')" src="' + image + '"></img>'
+  var img = '<img id="BKDCropImage' + id + '" onload="runCrop(' + id + ')" src="' + image + '"></img>'
   $('#BKDCropImageWrap').html(img);
 }
 
-function runJcrop(id) {
-  var image = document.getElementById('BKDCropImage' + id)
-  /*$('#BKDCropImage' + id).Jcrop({
-    boxWidth: 320,
-    setSelect: [ 20,20,100,100 ],
-    onSelect: showCoords,
-    onChange: showCoords
-  });*/
+function runCrop(id) {
+  var image = document.getElementById('BKDCropImage' + id);
   var cropper = new Cropper(image, {
     strict: true,
     viewMode: 1,
@@ -213,15 +207,6 @@ function runJcrop(id) {
 });
   $('#BookCrop').addClass('visible');
 }
-
-function showCoords(c) {
-      // variables can be accessed here as
-      // c.x, c.y, c.x2, c.y2, c.w, c.h
-      $('#BKDCropX').val(c.x);
-      $('#BKDCropY').val(c.y);
-      $('#BKDCropW').val(c.w);
-      $('#BKDCropH').val(c.h);
-};
 
 function saveCrop() {
   var id = $('#BKDID').val();
