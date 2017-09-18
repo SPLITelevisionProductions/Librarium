@@ -34,6 +34,5 @@ try {
 
 //include the user class, pass in the database connection
 include('user.php');
-include('phpmailer/mail.php');
 $user = new User($db);
 ?>
