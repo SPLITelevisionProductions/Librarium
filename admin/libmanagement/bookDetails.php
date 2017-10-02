@@ -2,6 +2,8 @@
     //include config
     require_once('../config.php');
 
+    ini_set('memory_limit', '512M');
+
     function image_fix_orientation($filename) {
     $exif = exif_read_data($filename);
     if (!empty($exif['Orientation'])) {
@@ -9,18 +11,23 @@
         switch ($exif['Orientation']) {
             case 3:
                 $image = imagerotate($image, 180, 0);
+                echo "Case 3";
                 break;
 
             case 6:
                 $image = imagerotate($image, -90, 0);
+                echo "Case 6";
                 break;
 
             case 8:
                 $image = imagerotate($image, 90, 0);
+                echo "Case 8";
                 break;
         }
 
         imagejpeg($image, $filename, 80);
+    } else {
+      echo "Cant get Orientation";
     }
 }
 
@@ -50,7 +57,7 @@
         $bookTitle = $book['Title'] . " Copy";
 
   			//insert into database with a prepared statement
-  			$stmt = $db->prepare('INSERT INTO books (Series, Title, BookNo, Author, Publisher, Year, Genre, Medium, Notes, Collector) VALUES (:series, :title, :bookno, :author, :publ, :year, :genre, :medium, :notes, :userID)');
+  			$stmt = $db->prepare('INSERT INTO books (Series, Title, BookNo, Author, Publisher, Year, Genre, Medium, OwnerID, Notes, Collector) VALUES (:series, :title, :bookno, :author, :publ, :year, :genre, :medium, :owner, :notes, :userID)');
         $stmt->execute(array(
           ':series' => $book['Series'],
           ':title'  => $bookTitle,
@@ -60,7 +67,7 @@
           ':year'   => $book['Year'],
           ':genre'  => $book['Genre'],
           ':medium' => $book['Medium'],
-          /*':owner'  => $book['Owner'],*/
+          ':owner'  => $book['OwnerID'],
           ':notes'  => $book['Notes'],
           ':userID' => $_COOKIE['id']
   		  ));
@@ -70,7 +77,8 @@
       }
     } elseif(isset($_POST['title'])) {
       try {
-        $stmt = $db->prepare('UPDATE books SET Series = :series, Title = :title, BookNo = :bookno, Author = :author, Publisher = :publ, Year = :year, Genre = :genre, Medium = :medium, Notes = :notes WHERE ID = :bookID');
+        echo $_POST['owner'];
+        $stmt = $db->prepare('UPDATE books SET Series = :series, Title = :title, BookNo = :bookno, Author = :author, Publisher = :publ, Year = :year, Genre = :genre, Medium = :medium, OwnerID = :owner, Notes = :notes WHERE ID = :bookID');
         $stmt->execute(array(
           ':series' => $_POST['series'],
           ':title'  => $_POST['title'],
@@ -80,7 +88,7 @@
           ':year'   => $_POST['year'],
           ':genre'  => $_POST['genre'],
           ':medium' => $_POST['medium'],
-          /*':owner'  => $_POST['owner'],*/
+          ':owner'  => $_POST['owner'],
           ':bookID' => $_POST['id'],
           ':notes'  => $_POST['notes']
         ));
@@ -109,6 +117,9 @@
 
       $sourcePath = $_FILES['file']['tmp_name'];
       $targetPath = "../../images/books/".$bookID.'_original.jpg';
+
+      $imgtest_info = getimagesize($sourcePath);
+      echo $imgtest_info[2];
 
       if (($img_info = getimagesize($sourcePath)) === FALSE) {
         die("Image not found or not an image");
@@ -186,6 +197,15 @@
 		  $book = $stmt->fetch();
 		  $bookcnt = count($book);
 
+      if ($book['OwnerID'] != "") {
+        $ostmt = $db->prepare('SELECT Colour FROM owners WHERE ID = :ownid');
+        $ostmt->execute(array(
+             ':ownid' => $book['OwnerID']
+        ));
+
+        $colour = $ostmt->fetch();
+      }
+
       ?>
       <!DOCTYPE html>
       <html>
@@ -206,9 +226,9 @@
                 }
               }
               ?>
-              <? if ($book['imgwidth'] != "") { ?><div class="bookCover <?=$book['OwnerColour']?>" style="background-image: url(/images/books/<?=$book['ID']?>.jpg); width: <?=$imgwidthper?>%; height: <?=$imgheightper?>%;">
+              <? if ($book['imgwidth'] != "") { ?><div class="bookCover" style="background-image: url(/images/books/<?=$book['ID']?>.jpg); width: <?=$imgwidthper?>%; height: <?=$imgheightper?>%; <? if ($book['OwnerID'] != '') {?>border-color: #<?=$colour['Colour']?>;<?}?>" title="<?=$row['Title']?>">
             <? } else { ?>
-              <div class="bookCover <?=$book['OwnerColour']?>"><? } ?>
+              <div class="bookCover" <? if ($book['OwnerID'] != '') {?>style="border-color: #<?=$colour['Colour']?>;"<?}?> title="<?=$row['Title']?>">><? } ?>
                  <? if ($book['LoanTo'] != "") { ?><div class="loanBanner">LOAN</div><? } ?>
                  <input type="file" id="BKDCoverUp" name="coverimage" accept="image/*" onchange="uploadCover()" />
               </div>
@@ -224,7 +244,7 @@
           <li><label for="BKDMedium">Medium</label><input name="medium" id="BKDMedium" placeholder="Medium" value="<?=$book['Medium']?>" /></li>
           <li><label for="BKDGenre">Genre</label><input name="genre" id="BKDGenre" placeholder="Genre" value="<?=$book['Genre']?>" /></li>
           <li></li>
-          <li><label for="BKDOwner">Owner</label><span>Coming Soon</span></li>
+          <li><label for="BKDOwner">Owner</label><span><input name="owner" id="BKDOwner" placeholder="Owner" value="<?=$book['OwnerID']?>" /></li>
           <li><label for="BKDRating">Rating</label><span>Coming Soon</span></li>
           <li><label for="BKDNotes">Notes</label><textarea id="BKDNotes"><?=$book['Notes']?></textarea></li>
         </ul>

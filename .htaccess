@@ -5,4 +5,4 @@ RewriteRule ^login$ admin/login.php [L]
 RewriteRule ^register$ admin/register.php [L]
 RewriteRule ^logout$ admin/logout.php [L]
 
-php_value upload_max_filesize 6M
+php_value upload_max_filesize 10M

@@ -6,3 +6,6 @@
 [27-Sep-2017 18:30:13 Pacific/Auckland] PHP Notice:  Undefined index: keeplogin in /home/librariu/public_html/admin/login.php on line 13
 [27-Sep-2017 18:40:00 Pacific/Auckland] PHP Notice:  Undefined variable: pagetype in /home/librariu/public_html/resources/php/header.php on line 28
 [27-Sep-2017 18:40:00 Pacific/Auckland] PHP Notice:  Undefined variable: pagetype in /home/librariu/public_html/resources/php/header.php on line 30
+[27-Sep-2017 19:25:14 Pacific/Auckland] PHP Notice:  Undefined variable: pagetype in /home/librariu/public_html/resources/php/header.php on line 28
+[27-Sep-2017 19:25:14 Pacific/Auckland] PHP Notice:  Undefined variable: pagetype in /home/librariu/public_html/resources/php/header.php on line 30
+[27-Sep-2017 19:25:23 Pacific/Auckland] PHP Notice:  Undefined index: keeplogin in /home/librariu/public_html/admin/login.php on line 13
