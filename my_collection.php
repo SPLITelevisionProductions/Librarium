@@ -23,6 +23,7 @@ require('resources/php/header.php');
 </header>
 <div id="ShelvesCont"></div>
 <div id="BlurOverlay"></div>
+<div id="SidebarDim"></div>
 <div id="Sidebar">
 	<button id="SbClose" class="modalClose" onclick="sbHide()"></button>
 	<div id="SbContents"></div>

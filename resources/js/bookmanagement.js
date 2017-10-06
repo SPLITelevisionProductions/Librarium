@@ -273,3 +273,20 @@ function adminShowColour() {
     }
   });
 }
+
+function bkSearch() {
+
+  var formData = {
+    'search':         $('#BKSearch').val()
+  };
+
+  $.ajax({
+    method    : 'POST',
+    url       : '/admin/libmanagement/getBooks.php?id=curr',
+    data      : formData,
+    dataType  : 'html',
+    success   : function(result){
+      $("#ShelvesCont").html(result);
+    }
+  });
+}

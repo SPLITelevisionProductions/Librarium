@@ -198,7 +198,7 @@
 		  $bookcnt = count($book);
 
       if ($book['OwnerID'] != "") {
-        $ostmt = $db->prepare('SELECT Colour FROM owners WHERE ID = :ownid');
+        $ostmt = $db->prepare('SELECT Colour, Name FROM owners WHERE ID = :ownid');
         $ostmt->execute(array(
              ':ownid' => $book['OwnerID']
         ));
@@ -228,7 +228,7 @@
               ?>
               <? if ($book['imgwidth'] != "") { ?><div class="bookCover" style="background-image: url(/images/books/<?=$book['ID']?>.jpg); width: <?=$imgwidthper?>%; height: <?=$imgheightper?>%; <? if ($book['OwnerID'] != '') {?>border-color: #<?=$colour['Colour']?>;<?}?>" title="<?=$row['Title']?>">
             <? } else { ?>
-              <div class="bookCover" <? if ($book['OwnerID'] != '') {?>style="border-color: #<?=$colour['Colour']?>;"<?}?> title="<?=$row['Title']?>">><? } ?>
+              <div class="bookCover" <? if ($book['OwnerID'] != '') {?>style="border-color: #<?=$colour['Colour']?>;"<?}?> title="<?=$row['Title']?>"><? } ?>
                  <? if ($book['LoanTo'] != "") { ?><div class="loanBanner">LOAN</div><? } ?>
                  <input type="file" id="BKDCoverUp" name="coverimage" accept="image/*" onchange="uploadCover()" />
               </div>
@@ -244,7 +244,8 @@
           <li><label for="BKDMedium">Medium</label><input name="medium" id="BKDMedium" placeholder="Medium" value="<?=$book['Medium']?>" /></li>
           <li><label for="BKDGenre">Genre</label><input name="genre" id="BKDGenre" placeholder="Genre" value="<?=$book['Genre']?>" /></li>
           <li></li>
-          <li><label for="BKDOwner">Owner</label><span><input name="owner" id="BKDOwner" placeholder="Owner" value="<?=$book['OwnerID']?>" /></li>
+          <li><label>Owner ID</label><input name="owner" id="BKDOwner" placeholder="Owner" value="<?=$book['OwnerID']?>" /></li>
+          <li><label for="BKDOwner">Owner</label><span><!--<input type="hidden" name="owner" id="BKDOwner" placeholder="Owner" value="<?/*=$book['OwnerID']*/?>" />--><div id="BKDOwnerButton"><span id="BKDOwnerCirc" style="background: #<?=$colour['Colour']?>;"></span><span id="BKDOwnerName"><?=$colour['Name']?></span></div></li>
           <li><label for="BKDRating">Rating</label><span>Coming Soon</span></li>
           <li><label for="BKDNotes">Notes</label><textarea id="BKDNotes"><?=$book['Notes']?></textarea></li>
         </ul>

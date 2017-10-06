@@ -12,10 +12,24 @@
         $id = $_GET['id'];
       }
 
+      if(!isset($_POST['search'])) {
+
       $stmt = $db->prepare('SELECT ID, Title, BookNo, OwnerID, LoanTo, imgwidth, imgheight FROM books WHERE Collector = :userID ORDER BY Series, CAST(BookNo AS UNSIGNED), BookNo, Title, Year');
 		  $stmt->execute(array(
 			     ':userID' => $id
 		  ));
+
+    } elseif(isset($_POST['search'])) {
+
+      $search = $_POST['search'];
+
+      $stmt = $db->prepare("SELECT ID, Title, BookNo, OwnerID, LoanTo, imgwidth, imgheight FROM books WHERE Title LIKE :search AND Collector = :userID OR Series LIKE :search AND Collector = :userID ORDER BY Series, CAST(BookNo AS UNSIGNED), BookNo, Title, Year");
+      $stmt->execute(array(
+			     ':userID' => $id,
+           ':search' => "%$search%"
+		  ));
+
+    }
 
 		  $books = $stmt->fetchAll();
 		  $bookcnt = count($books);

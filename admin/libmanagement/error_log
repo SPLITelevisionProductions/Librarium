@@ -317,3 +317,895 @@ Stack trace:
 [02-Oct-2017 21:57:08 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
 [02-Oct-2017 21:57:21 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
 [02-Oct-2017 21:57:24 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 21:57:57 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 21:58:27 Pacific/Auckland] PHP Notice:  Undefined variable: pagetype in /home/librariu/public_html/resources/php/header.php on line 29
+[02-Oct-2017 21:58:27 Pacific/Auckland] PHP Notice:  Undefined variable: pagetype in /home/librariu/public_html/resources/php/header.php on line 31
+[02-Oct-2017 21:58:31 Pacific/Auckland] PHP Notice:  Undefined variable: pagetype in /home/librariu/public_html/resources/php/header.php on line 29
+[02-Oct-2017 21:58:31 Pacific/Auckland] PHP Notice:  Undefined variable: pagetype in /home/librariu/public_html/resources/php/header.php on line 31
+[02-Oct-2017 21:59:06 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 21:59:20 Pacific/Auckland] PHP Notice:  Undefined variable: pagetype in /home/librariu/public_html/resources/php/header.php on line 29
+[02-Oct-2017 21:59:20 Pacific/Auckland] PHP Notice:  Undefined variable: pagetype in /home/librariu/public_html/resources/php/header.php on line 31
+[02-Oct-2017 21:59:25 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 21:59:47 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 21:59:50 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:00:11 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:00:25 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:00:29 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:00:45 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:01:21 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 40
+[02-Oct-2017 22:01:22 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 10
+[02-Oct-2017 22:01:32 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:02:21 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:02:27 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:02:48 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:03:05 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:03:09 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:03:16 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:05:26 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:05:58 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:06:10 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:06:13 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:06:19 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:06:25 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:07:22 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:07:36 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:07:51 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:07:55 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:08:07 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:09:40 Pacific/Auckland] PHP Notice:  Undefined variable: pagetype in /home/librariu/public_html/resources/php/header.php on line 29
+[02-Oct-2017 22:09:40 Pacific/Auckland] PHP Notice:  Undefined variable: pagetype in /home/librariu/public_html/resources/php/header.php on line 31
+[02-Oct-2017 22:10:50 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:11:20 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:11:50 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:11:53 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:13:14 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:14:04 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:15:06 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:15:31 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:15:34 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:15:45 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:15:50 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:16:54 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:17:23 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:17:38 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:17:41 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:17:47 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:18:24 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:22:07 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:22:44 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:22:49 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:23:21 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:23:21 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:23:24 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:23:31 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:23:37 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:23:48 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:25:18 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:25:44 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:26:07 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:26:10 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:26:11 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 10
+[02-Oct-2017 22:26:11 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 10
+[02-Oct-2017 22:26:22 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:26:22 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 10
+[02-Oct-2017 22:26:58 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:27:01 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:27:32 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:27:51 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:28:04 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:28:07 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:28:19 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:28:26 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:28:30 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:28:40 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:30:04 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:30:23 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:31:15 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:31:18 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:31:24 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:33:36 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:33:38 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:34:08 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:34:25 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:34:29 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:36:18 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:37:39 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:38:26 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:38:49 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:39:06 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:39:10 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:39:58 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:43:09 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:44:34 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:45:22 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:45:37 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:45:40 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 05:45:40 America/New_York] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 15
+[02-Oct-2017 05:45:40 America/New_York] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 15
+[02-Oct-2017 22:45:46 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 05:45:48 America/New_York] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 15
+[02-Oct-2017 22:45:50 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 05:45:51 America/New_York] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 15
+[02-Oct-2017 05:45:54 America/New_York] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 15
+[02-Oct-2017 05:45:58 America/New_York] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 15
+[02-Oct-2017 05:46:04 America/New_York] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 15
+[02-Oct-2017 05:46:06 America/New_York] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 15
+[02-Oct-2017 05:46:15 America/New_York] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 15
+[02-Oct-2017 05:46:21 America/New_York] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 15
+[02-Oct-2017 05:46:24 America/New_York] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 15
+[02-Oct-2017 05:46:27 America/New_York] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 15
+[02-Oct-2017 05:46:29 America/New_York] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 15
+[02-Oct-2017 22:46:48 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:46:48 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:46:48 Pacific/Auckland] PHP Notice:  Undefined variable: stmt in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 32
+[02-Oct-2017 22:46:48 Pacific/Auckland] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on null in /home/librariu/public_html/admin/libmanagement/getBooks.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 32
+[02-Oct-2017 22:46:49 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:46:49 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:46:49 Pacific/Auckland] PHP Notice:  Undefined variable: stmt in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 32
+[02-Oct-2017 22:46:49 Pacific/Auckland] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on null in /home/librariu/public_html/admin/libmanagement/getBooks.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 32
+[02-Oct-2017 22:48:46 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:48:46 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:48:46 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 22:48:48 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:48:48 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:48:48 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 22:48:59 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:50:02 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:50:19 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:50:19 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:50:19 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:50:19 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 22:50:20 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:50:20 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:50:36 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:50:38 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:50:40 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:50:43 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:50:43 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:50:43 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 22:50:44 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:50:44 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:50:44 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 22:50:44 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:50:44 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:50:44 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 22:50:44 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:50:44 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:50:44 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 22:50:46 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:51:50 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:51:50 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:51:50 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:51:50 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:51:50 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:51:50 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:51:51 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:51:51 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:51:51 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:51:51 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:51:51 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:51:51 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:52:04 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:52:04 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:52:04 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:52:04 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:52:04 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:52:04 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:52:04 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:52:04 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:52:04 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:52:04 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:52:04 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:52:05 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:52:05 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:52:06 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:52:06 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:52:06 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:52:07 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:52:07 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:52:07 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:52:07 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:52:07 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:52:07 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:52:08 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:52:08 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:52:08 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:52:08 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:52:08 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:52:08 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:52:09 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:52:09 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:52:09 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:52:09 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:52:09 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:52:09 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:52:09 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:52:09 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:52:09 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:52:09 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:52:09 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:52:09 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:52:09 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:52:09 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:52:09 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:52:09 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:52:09 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:52:09 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:52:11 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:52:11 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:52:11 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:52:12 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:52:12 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:52:12 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:52:13 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:52:13 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:52:13 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:52:57 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:52:57 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:52:57 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:52:57 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:52:57 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:52:57 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:52:57 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:52:57 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:52:57 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:52:58 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:52:58 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:52:58 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:53:00 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:53:00 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:53:00 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:53:00 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:53:00 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:53:00 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:53:00 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:53:00 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:53:00 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:53:00 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:53:00 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:53:02 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:53:02 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:53:02 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:53:02 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:53:02 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:53:02 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:53:02 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:53:02 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:53:02 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:53:02 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:53:02 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:53:02 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:53:02 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:53:02 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:53:02 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:53:02 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:53:02 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:53:02 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:53:02 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:53:02 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:53:02 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:53:02 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:53:02 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:53:02 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:53:02 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:53:02 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:53:02 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:53:02 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:53:02 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:53:02 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:53:03 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:53:03 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:53:03 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:53:03 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:53:03 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:53:03 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:53:30 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:53:50 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:54:06 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:54:10 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:54:27 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:54:27 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:54:27 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:54:27 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:54:27 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:54:27 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:54:28 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:54:28 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:54:28 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:54:28 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:54:28 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:54:28 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:54:29 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:54:29 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:54:29 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:54:35 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:54:42 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:55:00 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:55:05 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:55:46 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:55:46 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:55:46 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:55:47 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:55:47 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:55:47 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:55:47 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:55:47 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:55:47 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:55:48 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:55:48 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:55:48 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:55:48 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:55:48 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:55:48 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:55:48 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:55:48 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:55:48 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:55:53 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:55:53 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:55:53 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:55:54 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:55:54 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:55:54 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:55:58 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:56:12 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:56:12 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:56:12 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:56:13 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:56:13 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:56:13 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:56:13 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:56:13 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:56:13 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:56:13 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:56:13 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:56:13 Pacific/Auckland] PHP Notice:  Undefined index: Search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 24
+[02-Oct-2017 22:56:15 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 22:56:33 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:56:37 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 22:57:08 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:57:08 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:57:09 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:57:09 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:57:09 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:57:09 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:57:09 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:57:09 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:57:18 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:57:18 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:57:19 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:57:19 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:57:21 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:57:21 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:57:33 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:57:33 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:57:33 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:57:33 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:57:33 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:57:33 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:57:33 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:57:33 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:57:34 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:57:34 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:57:35 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:57:35 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:57:35 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:57:35 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:57:35 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:57:35 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:57:35 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:57:35 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:57:35 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:57:35 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:57:37 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:57:37 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:57:37 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:57:37 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:57:37 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:57:37 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:57:37 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:57:37 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:57:38 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:57:38 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:57:38 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:57:38 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:57:38 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:57:38 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:58:00 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:58:00 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:58:01 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:58:01 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:58:01 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:58:01 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:58:01 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:58:01 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:58:01 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:58:01 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:58:01 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:58:01 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:58:02 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:58:02 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:58:02 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:58:02 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:58:02 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:58:02 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:58:03 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:58:03 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:58:05 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:58:05 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:59:51 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:59:51 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:59:51 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:59:51 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:59:52 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:59:52 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:59:52 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:59:52 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:59:57 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:59:57 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 22:59:58 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 22:59:58 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:02:00 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:02:00 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:02:01 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:02:01 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:02:06 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:02:06 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:02:07 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:02:07 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:02:07 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:02:07 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:02:07 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:02:07 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:03:00 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:03:00 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:03:00 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%t% AND Collector = NULL ORDER BY Series, CAST(BookNo AS UNSIGNED), BookNo, Titl' at line 1 in /home/librariu/public_html/admin/libmanagement/getBooks.php:29
+Stack trace:
+#0 /home/librariu/public_html/admin/libmanagement/getBooks.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 29
+[02-Oct-2017 23:03:00 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:03:00 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:03:00 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%te% AND Collector = NULL ORDER BY Series, CAST(BookNo AS UNSIGNED), BookNo, Tit' at line 1 in /home/librariu/public_html/admin/libmanagement/getBooks.php:29
+Stack trace:
+#0 /home/librariu/public_html/admin/libmanagement/getBooks.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 29
+[02-Oct-2017 23:03:00 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:03:00 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:03:00 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%test% AND Collector = NULL ORDER BY Series, CAST(BookNo AS UNSIGNED), BookNo, T' at line 1 in /home/librariu/public_html/admin/libmanagement/getBooks.php:29
+Stack trace:
+#0 /home/librariu/public_html/admin/libmanagement/getBooks.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 29
+[02-Oct-2017 23:03:00 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:03:00 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:03:00 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%tes% AND Collector = NULL ORDER BY Series, CAST(BookNo AS UNSIGNED), BookNo, Ti' at line 1 in /home/librariu/public_html/admin/libmanagement/getBooks.php:29
+Stack trace:
+#0 /home/librariu/public_html/admin/libmanagement/getBooks.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 29
+[02-Oct-2017 23:04:50 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:04:50 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:04:50 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters in /home/librariu/public_html/admin/libmanagement/getBooks.php:30
+Stack trace:
+#0 /home/librariu/public_html/admin/libmanagement/getBooks.php(30): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 30
+[02-Oct-2017 23:04:50 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:04:50 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:04:50 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters in /home/librariu/public_html/admin/libmanagement/getBooks.php:30
+Stack trace:
+#0 /home/librariu/public_html/admin/libmanagement/getBooks.php(30): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 30
+[02-Oct-2017 23:04:50 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:04:50 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:04:50 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters in /home/librariu/public_html/admin/libmanagement/getBooks.php:30
+Stack trace:
+#0 /home/librariu/public_html/admin/libmanagement/getBooks.php(30): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 30
+[02-Oct-2017 23:05:30 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:05:30 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:05:30 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters in /home/librariu/public_html/admin/libmanagement/getBooks.php:30
+Stack trace:
+#0 /home/librariu/public_html/admin/libmanagement/getBooks.php(30): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 30
+[02-Oct-2017 23:05:30 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:05:30 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:05:30 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters in /home/librariu/public_html/admin/libmanagement/getBooks.php:30
+Stack trace:
+#0 /home/librariu/public_html/admin/libmanagement/getBooks.php(30): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 30
+[02-Oct-2017 23:05:30 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:05:30 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:05:30 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters in /home/librariu/public_html/admin/libmanagement/getBooks.php:30
+Stack trace:
+#0 /home/librariu/public_html/admin/libmanagement/getBooks.php(30): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 30
+[02-Oct-2017 23:05:30 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:05:30 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:05:30 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters in /home/librariu/public_html/admin/libmanagement/getBooks.php:30
+Stack trace:
+#0 /home/librariu/public_html/admin/libmanagement/getBooks.php(30): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 30
+[02-Oct-2017 23:06:39 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:06:39 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:06:39 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:06:39 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:06:40 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:06:40 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:06:40 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:06:40 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:09:05 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:09:05 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:09:05 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:09:05 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:09:05 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:09:05 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:09:05 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:09:05 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:12:17 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 23:13:13 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 10
+[02-Oct-2017 23:13:13 Pacific/Auckland] PHP Notice:  Undefined index: search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 15
+[02-Oct-2017 23:13:50 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 23:14:05 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:14:05 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:14:05 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:14:05 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:14:05 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:14:05 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:14:06 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:14:06 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:14:06 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 23:14:07 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:14:07 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:14:40 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:14:43 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:14:49 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:15:17 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:15:17 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:15:18 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:15:18 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:15:18 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:15:18 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:15:18 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:15:18 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:15:21 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:15:21 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:15:21 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:15:21 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:15:22 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:15:22 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:15:22 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:15:22 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:15:56 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:15:58 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 23:16:25 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:16:25 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:16:25 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:16:25 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:16:25 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:16:25 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:16:25 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:16:25 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:16:26 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:16:26 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:16:45 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 23:17:03 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 23:17:24 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:17:24 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:17:24 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:17:24 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:17:33 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:17:37 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:17:38 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:17:38 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:17:38 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:17:38 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:17:38 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:17:38 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:17:39 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:17:39 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:17:42 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:19:01 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 23:20:03 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 23:20:25 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 23:20:54 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:20:54 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:20:54 Pacific/Auckland] PHP Fatal error:  Uncaught DivisionByZeroError: Modulo by zero in /home/librariu/public_html/admin/libmanagement/getBooks.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 26
+[02-Oct-2017 23:20:54 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:20:54 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:20:54 Pacific/Auckland] PHP Fatal error:  Uncaught DivisionByZeroError: Modulo by zero in /home/librariu/public_html/admin/libmanagement/getBooks.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 26
+[02-Oct-2017 23:20:54 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:20:54 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:20:54 Pacific/Auckland] PHP Fatal error:  Uncaught DivisionByZeroError: Modulo by zero in /home/librariu/public_html/admin/libmanagement/getBooks.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 26
+[02-Oct-2017 23:20:54 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:20:54 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:20:54 Pacific/Auckland] PHP Fatal error:  Uncaught DivisionByZeroError: Modulo by zero in /home/librariu/public_html/admin/libmanagement/getBooks.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 26
+[02-Oct-2017 23:20:55 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:20:55 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:20:55 Pacific/Auckland] PHP Fatal error:  Uncaught DivisionByZeroError: Modulo by zero in /home/librariu/public_html/admin/libmanagement/getBooks.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 26
+[02-Oct-2017 23:21:49 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:21:53 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:22:20 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:22:30 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 23:22:45 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 23:23:03 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 23:23:19 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:23:23 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:23:32 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:23:48 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:23:52 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 23:24:13 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:24:13 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:24:13 Pacific/Auckland] PHP Notice:  Undefined variable: query in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 23:24:13 Pacific/Auckland] PHP Fatal error:  Uncaught Error: Call to a member function bindValue() on null in /home/librariu/public_html/admin/libmanagement/getBooks.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 23:24:14 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:24:14 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:24:14 Pacific/Auckland] PHP Notice:  Undefined variable: query in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 23:24:14 Pacific/Auckland] PHP Fatal error:  Uncaught Error: Call to a member function bindValue() on null in /home/librariu/public_html/admin/libmanagement/getBooks.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 23:24:14 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:24:14 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:24:14 Pacific/Auckland] PHP Notice:  Undefined variable: query in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 23:24:14 Pacific/Auckland] PHP Fatal error:  Uncaught Error: Call to a member function bindValue() on null in /home/librariu/public_html/admin/libmanagement/getBooks.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 23:24:14 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:24:14 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:24:14 Pacific/Auckland] PHP Notice:  Undefined variable: query in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 23:24:14 Pacific/Auckland] PHP Fatal error:  Uncaught Error: Call to a member function bindValue() on null in /home/librariu/public_html/admin/libmanagement/getBooks.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 23:24:14 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:24:14 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:24:14 Pacific/Auckland] PHP Notice:  Undefined variable: query in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 23:24:14 Pacific/Auckland] PHP Fatal error:  Uncaught Error: Call to a member function bindValue() on null in /home/librariu/public_html/admin/libmanagement/getBooks.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 23:24:15 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:24:15 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:24:15 Pacific/Auckland] PHP Notice:  Undefined variable: query in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 23:24:15 Pacific/Auckland] PHP Fatal error:  Uncaught Error: Call to a member function bindValue() on null in /home/librariu/public_html/admin/libmanagement/getBooks.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 23:24:15 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:24:15 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:24:15 Pacific/Auckland] PHP Notice:  Undefined variable: query in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 23:24:15 Pacific/Auckland] PHP Fatal error:  Uncaught Error: Call to a member function bindValue() on null in /home/librariu/public_html/admin/libmanagement/getBooks.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 23:24:15 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:24:15 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:24:15 Pacific/Auckland] PHP Notice:  Undefined variable: query in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 23:24:15 Pacific/Auckland] PHP Fatal error:  Uncaught Error: Call to a member function bindValue() on null in /home/librariu/public_html/admin/libmanagement/getBooks.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 23:24:15 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:24:15 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:24:15 Pacific/Auckland] PHP Notice:  Undefined variable: query in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 23:24:15 Pacific/Auckland] PHP Fatal error:  Uncaught Error: Call to a member function bindValue() on null in /home/librariu/public_html/admin/libmanagement/getBooks.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 23:24:15 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:24:15 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:24:15 Pacific/Auckland] PHP Notice:  Undefined variable: query in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 23:24:15 Pacific/Auckland] PHP Fatal error:  Uncaught Error: Call to a member function bindValue() on null in /home/librariu/public_html/admin/libmanagement/getBooks.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 23:24:17 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:24:17 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:24:17 Pacific/Auckland] PHP Notice:  Undefined variable: query in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 23:24:17 Pacific/Auckland] PHP Fatal error:  Uncaught Error: Call to a member function bindValue() on null in /home/librariu/public_html/admin/libmanagement/getBooks.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 23:24:50 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 23:25:02 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:25:02 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:25:02 Pacific/Auckland] PHP Notice:  Undefined variable: search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 23:25:03 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:25:03 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:25:03 Pacific/Auckland] PHP Notice:  Undefined variable: search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 23:25:03 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:25:03 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:25:03 Pacific/Auckland] PHP Notice:  Undefined variable: search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 23:25:03 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:25:03 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:25:03 Pacific/Auckland] PHP Notice:  Undefined variable: search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 23:25:05 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:25:05 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:25:05 Pacific/Auckland] PHP Notice:  Undefined variable: search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 23:25:06 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 23:25:32 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:25:35 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:25:41 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:25:43 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 23:25:54 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 23:26:23 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 23:26:38 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:26:41 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:27:01 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:27:13 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:27:16 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 23:27:34 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:27:34 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:27:34 Pacific/Auckland] PHP Notice:  Undefined variable: search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 23:27:34 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:27:34 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:27:34 Pacific/Auckland] PHP Notice:  Undefined variable: search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 23:27:34 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:27:34 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:27:34 Pacific/Auckland] PHP Notice:  Undefined variable: search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 23:27:35 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:27:35 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:27:35 Pacific/Auckland] PHP Notice:  Undefined variable: search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 27
+[02-Oct-2017 23:27:44 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 23:28:15 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:28:15 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:28:15 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:28:15 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:28:16 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:28:16 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:28:16 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:28:16 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:28:17 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 23:28:40 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:28:44 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:28:49 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:28:51 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:28:51 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:28:53 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:28:53 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:29:14 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:29:14 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:29:16 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:29:16 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:29:17 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:29:17 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:31:56 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:31:58 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 23:32:44 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:32:44 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:32:44 Pacific/Auckland] PHP Notice:  Use of undefined constant test - assumed 'test' in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 26
+[02-Oct-2017 23:32:44 Pacific/Auckland] PHP Fatal error:  Uncaught DivisionByZeroError: Modulo by zero in /home/librariu/public_html/admin/libmanagement/getBooks.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 26
+[02-Oct-2017 23:32:45 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:32:45 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:32:45 Pacific/Auckland] PHP Notice:  Use of undefined constant test - assumed 'test' in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 26
+[02-Oct-2017 23:32:45 Pacific/Auckland] PHP Fatal error:  Uncaught DivisionByZeroError: Modulo by zero in /home/librariu/public_html/admin/libmanagement/getBooks.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 26
+[02-Oct-2017 23:32:47 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 23:33:10 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:33:10 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:33:10 Pacific/Auckland] PHP Notice:  Use of undefined constant test - assumed 'test' in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 26
+[02-Oct-2017 23:33:10 Pacific/Auckland] PHP Fatal error:  Uncaught DivisionByZeroError: Modulo by zero in /home/librariu/public_html/admin/libmanagement/getBooks.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 26
+[02-Oct-2017 23:33:10 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 23:33:12 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:33:12 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:33:12 Pacific/Auckland] PHP Notice:  Use of undefined constant test - assumed 'test' in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 26
+[02-Oct-2017 23:33:12 Pacific/Auckland] PHP Fatal error:  Uncaught DivisionByZeroError: Modulo by zero in /home/librariu/public_html/admin/libmanagement/getBooks.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 26
+[02-Oct-2017 23:33:43 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:33:47 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:34:05 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:34:08 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:34:08 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:34:10 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:34:10 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:34:22 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:34:25 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 23:35:03 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 23:35:20 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 23:35:35 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:35:38 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:35:45 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:36:52 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:36:52 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:36:52 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY Series, CAST(BookNo AS UNSIGNED), BookNo, Title, Year' at line 1 in /home/librariu/public_html/admin/libmanagement/getBooks.php:30
+Stack trace:
+#0 /home/librariu/public_html/admin/libmanagement/getBooks.php(30): PDOStatement->execute()
+#1 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 30
+[02-Oct-2017 23:36:52 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:36:52 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:36:52 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY Series, CAST(BookNo AS UNSIGNED), BookNo, Title, Year' at line 1 in /home/librariu/public_html/admin/libmanagement/getBooks.php:30
+Stack trace:
+#0 /home/librariu/public_html/admin/libmanagement/getBooks.php(30): PDOStatement->execute()
+#1 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 30
+[02-Oct-2017 23:37:31 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:37:39 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:37:40 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 72
+[02-Oct-2017 23:37:40 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 10
+[02-Oct-2017 23:37:40 Pacific/Auckland] PHP Notice:  Undefined index: search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 15
+[02-Oct-2017 23:37:54 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 229
+[02-Oct-2017 23:37:56 Pacific/Auckland] PHP Notice:  Undefined variable: row in /home/librariu/public_html/admin/libmanagement/bookDetails.php on line 231
+[02-Oct-2017 23:38:03 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 10
+[02-Oct-2017 23:38:03 Pacific/Auckland] PHP Notice:  Undefined index: search in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 15
+[02-Oct-2017 23:38:26 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:38:26 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:38:26 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY Series, CAST(BookNo AS UNSIGNED), BookNo, Title, Year' at line 1 in /home/librariu/public_html/admin/libmanagement/getBooks.php:30
+Stack trace:
+#0 /home/librariu/public_html/admin/libmanagement/getBooks.php(30): PDOStatement->execute()
+#1 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 30
+[02-Oct-2017 23:38:26 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:38:26 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:38:26 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY Series, CAST(BookNo AS UNSIGNED), BookNo, Title, Year' at line 1 in /home/librariu/public_html/admin/libmanagement/getBooks.php:30
+Stack trace:
+#0 /home/librariu/public_html/admin/libmanagement/getBooks.php(30): PDOStatement->execute()
+#1 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 30
+[02-Oct-2017 23:38:26 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:38:26 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:38:26 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY Series, CAST(BookNo AS UNSIGNED), BookNo, Title, Year' at line 1 in /home/librariu/public_html/admin/libmanagement/getBooks.php:30
+Stack trace:
+#0 /home/librariu/public_html/admin/libmanagement/getBooks.php(30): PDOStatement->execute()
+#1 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 30
+[02-Oct-2017 23:38:27 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:38:27 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:38:27 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY Series, CAST(BookNo AS UNSIGNED), BookNo, Title, Year' at line 1 in /home/librariu/public_html/admin/libmanagement/getBooks.php:30
+Stack trace:
+#0 /home/librariu/public_html/admin/libmanagement/getBooks.php(30): PDOStatement->execute()
+#1 {main}
+  thrown in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 30
+[02-Oct-2017 23:39:48 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:39:48 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:39:48 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:39:48 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:39:48 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:39:48 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:39:48 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:39:48 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
+[02-Oct-2017 23:39:50 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 9
+[02-Oct-2017 23:39:50 Pacific/Auckland] PHP Notice:  Undefined index: id in /home/librariu/public_html/admin/libmanagement/getBooks.php on line 12
