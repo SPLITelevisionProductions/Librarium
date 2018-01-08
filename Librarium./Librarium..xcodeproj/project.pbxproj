@@ -47,6 +47,7 @@
 		960680D91F8799FF00C6FD59 /* Librarium.UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Librarium.UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		960680DD1F8799FF00C6FD59 /* Librarium_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Librarium_UITests.swift; sourceTree = "<group>"; };
 		960680DF1F8799FF00C6FD59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960680EB1F879F2D00C6FD59 /* Nacho Pasta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nacho Pasta.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +103,7 @@
 				960680C11F8799FF00C6FD59 /* Main.storyboard */,
 				960680C41F8799FF00C6FD59 /* Assets.xcassets */,
 				960680C61F8799FF00C6FD59 /* LaunchScreen.storyboard */,
+				960680EB1F879F2D00C6FD59 /* Nacho Pasta.png */,
 				960680C91F8799FF00C6FD59 /* Info.plist */,
 			);
 			path = Librarium.;

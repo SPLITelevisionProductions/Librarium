@@ -14,7 +14,7 @@
 
       if(!isset($_POST['search'])) {
 
-      $stmt = $db->prepare('SELECT ID, Title, BookNo, OwnerID, LoanTo, imgwidth, imgheight FROM books WHERE Collector = :userID ORDER BY Series, CAST(BookNo AS UNSIGNED), BookNo, Title, Year');
+      $stmt = $db->prepare('SELECT ID, Title, BookNo, OwnerID, imgwidth, imgheight FROM books WHERE Collector = :userID ORDER BY Series, CAST(BookNo AS UNSIGNED), BookNo, Title, Year');
 		  $stmt->execute(array(
 			     ':userID' => $id
 		  ));
@@ -23,7 +23,7 @@
 
       $search = $_POST['search'];
 
-      $stmt = $db->prepare("SELECT ID, Title, BookNo, OwnerID, LoanTo, imgwidth, imgheight FROM books WHERE Title LIKE :search AND Collector = :userID OR Series LIKE :search AND Collector = :userID ORDER BY Series, CAST(BookNo AS UNSIGNED), BookNo, Title, Year");
+      $stmt = $db->prepare("SELECT ID, Title, BookNo, OwnerID, imgwidth, imgheight FROM books WHERE Title LIKE :search AND Collector = :userID OR Series LIKE :search AND Collector = :userID ORDER BY Series, CAST(BookNo AS UNSIGNED), BookNo, Title, Year");
       $stmt->execute(array(
 			     ':userID' => $id,
            ':search' => "%$search%"
@@ -66,11 +66,11 @@
           ?>
           <? if ($row['imgwidth'] != "") { ?><div class="bookCover" onclick="bkdShow(<?=$row['ID']?>)" style="background-image: url(/images/books/<?=$row['ID']?>.jpg); width: <?=$imgwidthper?>%; height: <?=$imgheightper?>%; <? if ($row['OwnerID'] != '') {?>border-color: #<?=$colour['Colour']?>;<?}?>" title="<?=$row['Title']?>">
         <? } else { ?>
-          <div class="bookCover" <? if ($row['OwnerID'] != "") {?>style="border-color: <?=$colour['Colour']?>;"<?}?> onclick="bkdShow(<?=$row['ID']?>)" title="<?=$row['Title']?>"><?=$row['Title']?><? } ?>
+          <div class="bookCover" <? if ($row['OwnerID'] != "") {?>style="border-color: #<?=$colour['Colour']?>;"<?}?> onclick="bkdShow(<?=$row['ID']?>)" title="<?=$row['Title']?>"><?=$row['Title']?><? } ?>
             <? if ($row['BookNo'] != "") { ?>
               <div class="bookNoCnr"><?=$row['BookNo']?></div>
              <? }
-             if ($row['LoanTo'] != "") { ?><div class="loanBanner">LOAN</div><? } ?>
+             /*if ($row['LoanTo'] != "") { ?><div class="loanBanner">LOAN</div><? }*/ ?>
           </div>
         </li>
     		<? endforeach ?>

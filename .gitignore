@@ -2,3 +2,6 @@
 /images
 /proto
 /admin/config.php
+/rec
+/admin/apk
+error_log

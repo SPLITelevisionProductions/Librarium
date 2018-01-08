@@ -4,6 +4,8 @@
 
     ini_set('memory_limit', '512M');
 
+    $date = date('Y-m-d H:i:s', time());
+
     function image_fix_orientation($filename) {
     $exif = exif_read_data($filename);
     if (!empty($exif['Orientation'])) {
@@ -32,12 +34,14 @@
 }
 
     if(isset($_GET['new'])) {
+      //$date = date('Y-m-d', time());
       try {
 
   			//insert into database with a prepared statement
-  			$stmt = $db->prepare('INSERT INTO books (Collector) VALUES (:userID)');
+  			$stmt = $db->prepare('INSERT INTO books (Collector, Created) VALUES (:userID, :created)');
         $stmt->execute(array(
-  			     ':userID' => $_COOKIE['id']
+  			     ':userID' => $_COOKIE['id'],
+             ':created' => $date
   		  ));
         $bookID = $db->lastInsertId('Collector');
       } catch(PDOException $e) {
@@ -47,6 +51,7 @@
       $dupID = $_GET['duplicate'];
 
       try {
+        //$date = date('Y-m-d H:i:s', time());
         $sstmt = $db->prepare('SELECT * FROM books WHERE ID = :bookID');
   		  $sstmt->execute(array(
   			     ':bookID' => $dupID
@@ -57,7 +62,7 @@
         $bookTitle = $book['Title'] . " Copy";
 
   			//insert into database with a prepared statement
-  			$stmt = $db->prepare('INSERT INTO books (Series, Title, BookNo, Author, Publisher, Year, Genre, Medium, OwnerID, Notes, Collector) VALUES (:series, :title, :bookno, :author, :publ, :year, :genre, :medium, :owner, :notes, :userID)');
+  			$stmt = $db->prepare('INSERT INTO books (Series, Title, BookNo, Author, Publisher, Year, Genre, Medium, OwnerID, Notes, Collector, Created) VALUES (:series, :title, :bookno, :author, :publ, :year, :genre, :medium, :owner, :notes, :userID, :created)');
         $stmt->execute(array(
           ':series' => $book['Series'],
           ':title'  => $bookTitle,
@@ -69,7 +74,8 @@
           ':medium' => $book['Medium'],
           ':owner'  => $book['OwnerID'],
           ':notes'  => $book['Notes'],
-          ':userID' => $_COOKIE['id']
+          ':userID' => $_COOKIE['id'],
+          ':created' => $date
   		  ));
         $bookID = $db->lastInsertId('Collector');
       } catch(PDOException $e) {
@@ -77,8 +83,8 @@
       }
     } elseif(isset($_POST['title'])) {
       try {
-        echo $_POST['owner'];
-        $stmt = $db->prepare('UPDATE books SET Series = :series, Title = :title, BookNo = :bookno, Author = :author, Publisher = :publ, Year = :year, Genre = :genre, Medium = :medium, OwnerID = :owner, Notes = :notes WHERE ID = :bookID');
+        //echo $_POST['owner'];
+        $stmt = $db->prepare('UPDATE books SET Series = :series, Title = :title, BookNo = :bookno, Author = :author, Publisher = :publ, Year = :year, Genre = :genre, Medium = :medium, OwnerID = :owner, Notes = :notes, Edited = :edited WHERE ID = :bookID');
         $stmt->execute(array(
           ':series' => $_POST['series'],
           ':title'  => $_POST['title'],
@@ -90,7 +96,8 @@
           ':medium' => $_POST['medium'],
           ':owner'  => $_POST['owner'],
           ':bookID' => $_POST['id'],
-          ':notes'  => $_POST['notes']
+          ':notes'  => $_POST['notes'],
+          ':edited' => $date
         ));
         $bookID = $_POST['id'];
       } catch(PDOException $e) {
@@ -171,11 +178,12 @@
       imagejpeg($dst_r, $target, $jpeg_quality);
 
       try {
-        $stmt = $db->prepare('UPDATE books SET imgwidth = :cropw, imgheight = :croph WHERE ID = :bookID');
+        $stmt = $db->prepare('UPDATE books SET imgwidth = :cropw, imgheight = :croph, Edited = :edited WHERE ID = :bookID');
         $stmt->execute(array(
-          ':cropw' => $_POST['cropw'],
-          ':croph' => $_POST['croph'],
-          ':bookID' => $_POST['cropid']
+          ':cropw'  => $_POST['cropw'],
+          ':croph'  => $_POST['croph'],
+          ':bookID' => $_POST['cropid'],
+          ':edited' => $date
         ));
         $bookID = $_POST['cropid'];
       } catch(PDOException $e) {
