@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<title>Librarium – <?php if(isset($title)){ echo $title; }?></title>
 		<script type="text/javascript" src="/resources/js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="/resources/js/jscolor.min.js"></script>
 		<link rel="stylesheet" href="/resources/css/<? if (isset($_COOKIE['theme'])) { echo($_COOKIE['theme']); } else { echo('niagara'); }?>.css">
 		<link  href="/resources/js/cropperjs/cropper.css" rel="stylesheet">
 		<script src="/resources/js/cropperjs/cropper.js"></script>

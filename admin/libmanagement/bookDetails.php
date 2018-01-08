@@ -2,6 +2,10 @@
     //include config
     require_once('../config.php');
 
+    ini_set('memory_limit', '512M');
+
+    $date = date('Y-m-d H:i:s', time());
+
     function image_fix_orientation($filename) {
     $exif = exif_read_data($filename);
     if (!empty($exif['Orientation'])) {
@@ -9,28 +13,35 @@
         switch ($exif['Orientation']) {
             case 3:
                 $image = imagerotate($image, 180, 0);
+                echo "Case 3";
                 break;
 
             case 6:
                 $image = imagerotate($image, -90, 0);
+                echo "Case 6";
                 break;
 
             case 8:
                 $image = imagerotate($image, 90, 0);
+                echo "Case 8";
                 break;
         }
 
         imagejpeg($image, $filename, 80);
+    } else {
+      echo "Cant get Orientation";
     }
 }
 
     if(isset($_GET['new'])) {
+      //$date = date('Y-m-d', time());
       try {
 
   			//insert into database with a prepared statement
-  			$stmt = $db->prepare('INSERT INTO books (Collector) VALUES (:userID)');
+  			$stmt = $db->prepare('INSERT INTO books (Collector, Created) VALUES (:userID, :created)');
         $stmt->execute(array(
-  			     ':userID' => $_COOKIE['id']
+  			     ':userID' => $_COOKIE['id'],
+             ':created' => $date
   		  ));
         $bookID = $db->lastInsertId('Collector');
       } catch(PDOException $e) {
@@ -40,6 +51,7 @@
       $dupID = $_GET['duplicate'];
 
       try {
+        //$date = date('Y-m-d H:i:s', time());
         $sstmt = $db->prepare('SELECT * FROM books WHERE ID = :bookID');
   		  $sstmt->execute(array(
   			     ':bookID' => $dupID
@@ -50,7 +62,7 @@
         $bookTitle = $book['Title'] . " Copy";
 
   			//insert into database with a prepared statement
-  			$stmt = $db->prepare('INSERT INTO books (Series, Title, BookNo, Author, Publisher, Year, Genre, Medium, Notes, Collector) VALUES (:series, :title, :bookno, :author, :publ, :year, :genre, :medium, :notes, :userID)');
+  			$stmt = $db->prepare('INSERT INTO books (Series, Title, BookNo, Author, Publisher, Year, Genre, Medium, OwnerID, Notes, Collector, Created) VALUES (:series, :title, :bookno, :author, :publ, :year, :genre, :medium, :owner, :notes, :userID, :created)');
         $stmt->execute(array(
           ':series' => $book['Series'],
           ':title'  => $bookTitle,
@@ -60,9 +72,10 @@
           ':year'   => $book['Year'],
           ':genre'  => $book['Genre'],
           ':medium' => $book['Medium'],
-          /*':owner'  => $book['Owner'],*/
+          ':owner'  => $book['OwnerID'],
           ':notes'  => $book['Notes'],
-          ':userID' => $_COOKIE['id']
+          ':userID' => $_COOKIE['id'],
+          ':created' => $date
   		  ));
         $bookID = $db->lastInsertId('Collector');
       } catch(PDOException $e) {
@@ -70,7 +83,8 @@
       }
     } elseif(isset($_POST['title'])) {
       try {
-        $stmt = $db->prepare('UPDATE books SET Series = :series, Title = :title, BookNo = :bookno, Author = :author, Publisher = :publ, Year = :year, Genre = :genre, Medium = :medium, Notes = :notes WHERE ID = :bookID');
+        //echo $_POST['owner'];
+        $stmt = $db->prepare('UPDATE books SET Series = :series, Title = :title, BookNo = :bookno, Author = :author, Publisher = :publ, Year = :year, Genre = :genre, Medium = :medium, OwnerID = :owner, Notes = :notes, Edited = :edited WHERE ID = :bookID');
         $stmt->execute(array(
           ':series' => $_POST['series'],
           ':title'  => $_POST['title'],
@@ -80,9 +94,10 @@
           ':year'   => $_POST['year'],
           ':genre'  => $_POST['genre'],
           ':medium' => $_POST['medium'],
-          /*':owner'  => $_POST['owner'],*/
+          ':owner'  => $_POST['owner'],
           ':bookID' => $_POST['id'],
-          ':notes'  => $_POST['notes']
+          ':notes'  => $_POST['notes'],
+          ':edited' => $date
         ));
         $bookID = $_POST['id'];
       } catch(PDOException $e) {
@@ -109,6 +124,9 @@
 
       $sourcePath = $_FILES['file']['tmp_name'];
       $targetPath = "../../images/books/".$bookID.'_original.jpg';
+
+      $imgtest_info = getimagesize($sourcePath);
+      echo $imgtest_info[2];
 
       if (($img_info = getimagesize($sourcePath)) === FALSE) {
         die("Image not found or not an image");
@@ -160,11 +178,12 @@
       imagejpeg($dst_r, $target, $jpeg_quality);
 
       try {
-        $stmt = $db->prepare('UPDATE books SET imgwidth = :cropw, imgheight = :croph WHERE ID = :bookID');
+        $stmt = $db->prepare('UPDATE books SET imgwidth = :cropw, imgheight = :croph, Edited = :edited WHERE ID = :bookID');
         $stmt->execute(array(
-          ':cropw' => $_POST['cropw'],
-          ':croph' => $_POST['croph'],
-          ':bookID' => $_POST['cropid']
+          ':cropw'  => $_POST['cropw'],
+          ':croph'  => $_POST['croph'],
+          ':bookID' => $_POST['cropid'],
+          ':edited' => $date
         ));
         $bookID = $_POST['cropid'];
       } catch(PDOException $e) {
@@ -186,6 +205,15 @@
 		  $book = $stmt->fetch();
 		  $bookcnt = count($book);
 
+      if ($book['OwnerID'] != "") {
+        $ostmt = $db->prepare('SELECT Colour, Name FROM owners WHERE ID = :ownid');
+        $ostmt->execute(array(
+             ':ownid' => $book['OwnerID']
+        ));
+
+        $colour = $ostmt->fetch();
+      }
+
       ?>
       <!DOCTYPE html>
       <html>
@@ -206,9 +234,9 @@
                 }
               }
               ?>
-              <? if ($book['imgwidth'] != "") { ?><div class="bookCover <?=$book['OwnerColour']?>" style="background-image: url(/images/books/<?=$book['ID']?>.jpg); width: <?=$imgwidthper?>%; height: <?=$imgheightper?>%;">
+              <? if ($book['imgwidth'] != "") { ?><div class="bookCover" style="background-image: url(/images/books/<?=$book['ID']?>.jpg); width: <?=$imgwidthper?>%; height: <?=$imgheightper?>%; <? if ($book['OwnerID'] != '') {?>border-color: #<?=$colour['Colour']?>;<?}?>" title="<?=$row['Title']?>">
             <? } else { ?>
-              <div class="bookCover <?=$book['OwnerColour']?>"><? } ?>
+              <div class="bookCover" <? if ($book['OwnerID'] != '') {?>style="border-color: #<?=$colour['Colour']?>;"<?}?> title="<?=$row['Title']?>"><? } ?>
                  <? if ($book['LoanTo'] != "") { ?><div class="loanBanner">LOAN</div><? } ?>
                  <input type="file" id="BKDCoverUp" name="coverimage" accept="image/*" onchange="uploadCover()" />
               </div>
@@ -224,7 +252,8 @@
           <li><label for="BKDMedium">Medium</label><input name="medium" id="BKDMedium" placeholder="Medium" value="<?=$book['Medium']?>" /></li>
           <li><label for="BKDGenre">Genre</label><input name="genre" id="BKDGenre" placeholder="Genre" value="<?=$book['Genre']?>" /></li>
           <li></li>
-          <li><label for="BKDOwner">Owner</label><span>Coming Soon</span></li>
+          <li><label>Owner ID</label><input name="owner" id="BKDOwner" placeholder="Owner" value="<?=$book['OwnerID']?>" /></li>
+          <li><label for="BKDOwner">Owner</label><span><!--<input type="hidden" name="owner" id="BKDOwner" placeholder="Owner" value="<?/*=$book['OwnerID']*/?>" />--><div id="BKDOwnerButton"><span id="BKDOwnerCirc" style="background: #<?=$colour['Colour']?>;"></span><span id="BKDOwnerName"><?=$colour['Name']?></span></div></li>
           <li><label for="BKDRating">Rating</label><span>Coming Soon</span></li>
           <li><label for="BKDNotes">Notes</label><textarea id="BKDNotes"><?=$book['Notes']?></textarea></li>
         </ul>

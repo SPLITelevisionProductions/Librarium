@@ -11,14 +11,14 @@ $pagetype = 'coll';
 $pageclass = 'collection';
 
 //define page title
-$title = 'My Collection';
+$title = 'Search';
 
 //include header template
 require('resources/php/header.php');
 ?>
 
 <header id="MainHeader">
-	<div class="headerTitle"><?=$title?></div>
+	<div class="headerSearch"><input type="search" id="BKSearch" placeholder="Search" onkeyup="bkSearch()" /></div>
 	<button id="BkAdd" class="headAdd" onclick="addBook()"></button>
 </header>
 <div id="ShelvesCont"></div>

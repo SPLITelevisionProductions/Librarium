@@ -18,7 +18,8 @@ $(document).ready(function() {
       'year':       $('#BKDYear').val(),
       'genre':      $('#BKDGenre').val(),
       'medium':     $('#BKDMedium').val(),
-      'notes':      $('#BKDNotes').val()
+      'notes':      $('#BKDNotes').val(),
+      'owner':      $('#BKDOwner').val()
     };
 
     console.log($('#BKDNotes').val());
@@ -86,7 +87,8 @@ function saveBook() {
     'year':       $('#BKDYear').val(),
     'genre':      $('#BKDGenre').val(),
     'medium':     $('#BKDMedium').val(),
-    'notes':      $('#BKDNotes').val()
+    'notes':      $('#BKDNotes').val(),
+    'owner':      $('#BKDOwner').val()
   };
 
   $.ajax({
@@ -152,7 +154,7 @@ function uploadCover() {
     processData: false,
     data: formData,
     type: 'post',
-    success: function(data){
+    success: function(result){
       bkdCrop(id);
     }
   });
@@ -246,4 +248,45 @@ function cancelCrop() {
 
 function logOut() {
   window.location = '/logout';
+}
+
+function adminShowColour() {
+
+  var formData = {
+    'ownidupdate':         $('#ownid').val()
+  };
+
+  $.ajax({
+    method    : 'POST',
+    url       : '/admin/libmanagement/setcolourupdate.php',
+    data      : formData,
+    dataType  : 'html',
+    success   : function(result){
+      //$("#colourselect").html(result);
+      //$('#colour').val(result);
+      if(!result) {
+        document.getElementById('colour').jscolor.fromString('FFFFFF');
+      } else {
+        document.getElementById('colour').jscolor.fromString(result);
+      }
+
+    }
+  });
+}
+
+function bkSearch() {
+
+  var formData = {
+    'search':         $('#BKSearch').val()
+  };
+
+  $.ajax({
+    method    : 'POST',
+    url       : '/admin/libmanagement/getBooks.php?id=curr',
+    data      : formData,
+    dataType  : 'html',
+    success   : function(result){
+      $("#ShelvesCont").html(result);
+    }
+  });
 }

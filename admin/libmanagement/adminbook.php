@@ -1,6 +1,6 @@
 <?php
 //include config
-require_once('admin/config.php');
+require_once('../config.php');
 
 //check if already logged in move to home page
 if(!$user->is_logged_in()) {
@@ -8,22 +8,32 @@ if(!$user->is_logged_in()) {
 }
 
 $pagetype = 'coll';
-$pageclass = 'collection';
+$pageclass = 'sysPage';
 
 //define page title
-$title = 'My Collection';
+$title = 'Edit Book';
 
 //include header template
-require('resources/php/header.php');
+require('../../resources/php/header.php');
 ?>
 
 <header id="MainHeader">
 	<div class="headerTitle"><?=$title?></div>
-	<button id="BkAdd" class="headAdd" onclick="addBook()"></button>
 </header>
-<div id="ShelvesCont"></div>
+<div class="vertAlignWrap">
+	<div class="vertAlignCont">
+		<div class="libLogo"></div>
+		<form role="form" method="post" action="" autocomplete="off">
+      <div class='succMsg'>This form allows you to edit/view any book</div>
+			<input type="number" name="bookid" id="bookid" placeholder="Book ID" value="" tabindex="1">
+			<div id="FormButtons">
+				<input type="button" name="editbook" onclick="bkdShow($('#bookid').val())" value="Edit" tabindex="2">
+			</div>
+		</form>
+		<div class="splitFooter"></div>
+	</div>
+</div>
 <div id="BlurOverlay"></div>
-<div id="SidebarDim"></div>
 <div id="Sidebar">
 	<button id="SbClose" class="modalClose" onclick="sbHide()"></button>
 	<div id="SbContents"></div>
@@ -82,5 +92,5 @@ require('resources/php/header.php');
 </div>
 <?php
 //include header template
-require('resources/php/footer.php');
+require('../../resources/php/footer.php');
 ?>
