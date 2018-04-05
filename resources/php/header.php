@@ -10,7 +10,7 @@
 		<script src="/resources/js/cropperjs/cropper.js"></script>
 		<script type="text/javascript" src="/resources/js/bookmanagement.js"></script>
 		<!-- Web App Mode -->
-		<meta name="viewport" content="width=device-width, user-scalable=no">
+		<meta name="viewport" content="width=device-width, user-scalable=no, viewport-fit=cover">
 		<meta name="apple-mobile-web-app-title" content="Librarium.">
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
