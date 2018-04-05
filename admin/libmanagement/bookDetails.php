@@ -83,10 +83,13 @@
       }
     } elseif(isset($_POST['title'])) {
       try {
-        $postOwner = "";
-        if ($_POST['owner'] == "") {
-          $postOwner = null;
-        } elseif ($_POST['owner'] != "") {
+        // Owner fix, if left as "" it would produce and incorrect integer error
+        // Only a fix in this version as the SQLite version will have a default
+        // of "0", which will be "Me"
+        // Default to null
+        $postOwner = null;
+        if ($_POST['owner'] != "") {
+          // Set $postOwner only if there is an actual value
           $postOwner = $_POST['owner'];
         }
         //echo $_POST['owner'];
