@@ -83,6 +83,12 @@
       }
     } elseif(isset($_POST['title'])) {
       try {
+        $postOwner = "";
+        if ($_POST['owner'] == "") {
+          $postOwner = null;
+        } elseif ($_POST['owner'] != "") {
+          $postOwner = $_POST['owner'];
+        }
         //echo $_POST['owner'];
         $stmt = $db->prepare('UPDATE books SET Series = :series, Title = :title, BookNo = :bookno, Author = :author, Publisher = :publ, Year = :year, Genre = :genre, Medium = :medium, OwnerID = :owner, Notes = :notes, Edited = :edited WHERE ID = :bookID');
         $stmt->execute(array(
@@ -94,7 +100,7 @@
           ':year'   => $_POST['year'],
           ':genre'  => $_POST['genre'],
           ':medium' => $_POST['medium'],
-          ':owner'  => $_POST['owner'],
+          ':owner'  => $postOwner,
           ':bookID' => $_POST['id'],
           ':notes'  => $_POST['notes'],
           ':edited' => $date
