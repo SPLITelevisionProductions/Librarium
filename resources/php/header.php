@@ -32,4 +32,7 @@
 	<body onload="getBooks(<?=$getID?>)">
 	<? } else {?>
 	<body>
-	<? } ?>
+	<? } 
+	//include server messages
+	require('/var/www/html/servermsg.php');
+	?>

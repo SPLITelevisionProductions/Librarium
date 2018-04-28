@@ -1,9 +1,11 @@
 .DS_store
 /images
 /proto
-/admin/config.php
+config.php
 /rec
 /admin/apk
 error_log
 /Librarium/
 .DAV
+.AppleDouble
+.AppleDB

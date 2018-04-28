@@ -2,7 +2,7 @@
 //include config
 require_once('config.php');
 
-//check if already logged in move to home page
+//check if already logged in and move to the main collection
 if( $user->is_logged_in() ){ header('Location: /collection'); }
 
 //process login form if submitted
@@ -49,6 +49,9 @@ require('../resources/php/header.php');
 
 				//check the action
 				switch ($_GET['action']) {
+					case 'x10':
+						echo "<div class='errorMsg'>This is the new home of Librarium.<br>Please update your links accordingly</div>";
+						break;
 					case 'active':
 						echo "<div class='succMsg'>Account activated</div>";
 						break;
